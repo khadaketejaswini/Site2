@@ -1,0 +1,98 @@
+h1, h2{
+    text-align: center;
+    color: white;
+}
+
+#header{   
+    padding: 100pt;
+    background-color: #000000;
+    border-radius: 75px;
+    box-shadow: 0 2px 3px rgba(0,0,0,.4);
+    margin: auto;
+    width: 50%;
+    padding: 30px;
+}
+
+.nav{
+background-color: black;
+height: 60px;
+z-index: 150;
+margin-bottom: -80px;
+box-shadow: 0 2px 3px rgba(0,0,0,.4);
+text-align: center;
+padding-left: 30px;
+color: white;
+}
+
+nav li{
+    display: inline;
+    margin: 5px auto 5px auto;
+    padding: 3px;
+    font-size: 20px; 
+}
+
+nav li a{
+    display: inline-block;
+    color: white;
+}
+h3,p
+{
+    padding: 20pt;
+    text-align: center;
+}
+
+img
+{
+    height: 200px;
+    width: 200px;
+    box-shadow: 0 2px 3px rgba(0,0,0,.4);
+    border-image: solid black;
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+}
+
+.progress {
+  height:3.5em;
+  width: 80%;
+  background-color:grey;
+  position: relative;
+  margin-bottom: 1.5em;
+  border-radius: 0;
+  align-items: center;
+}
+
+.progress:before {
+  content: attr(data-label);
+  font-size: 1.5em;
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+  top: 10px;
+  left: 0;
+  right: 0;
+}
+.progress .value {
+  background-color: black;
+  display: inline-block;
+  height: 100%;
+ 
+}
+
+.achieve{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, .5fr)); 
+  }
+.ach img{
+   
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, .5fr)); 
+  
+}
+
+body{
+    margin-left: 15px;
+}
